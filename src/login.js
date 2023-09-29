@@ -24,7 +24,7 @@ const Login = () => {
     e.preventDefault();
     console.log('data', data);
     axios
-      .post('http://localhost:5000/api/v1/auth/login', data, {
+      .post('http://3.110.154.127:5000/api/v1/auth/login', data, {
         withCredentials: true,
       })
       .then((res) => {
