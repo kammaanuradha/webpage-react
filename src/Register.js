@@ -31,7 +31,7 @@ const Register = () => {
     
     
     // Send a POST request to the specified API endpoint
-    axios.post('http://localhost:5000/api/v1/auth/register', data, { withCredentials: true })
+    axios.post('http://3.110.154.127:5000/api/v1/auth/register', data, { withCredentials: true })
       .then((res) => {
         console.log('Response:', res.data);
         setNotify(true);
